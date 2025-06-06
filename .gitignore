@@ -1,0 +1,14 @@
+# Ignore dataset files
+datasets/
+data/
+
+# Ignore trained model files
+models/
+
+# Ignore notebooks
+*.ipynb
+
+# Others (optional)
+__pycache__/
+*.pyc
+.env

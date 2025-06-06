@@ -6,14 +6,14 @@ app = Flask(__name__)
 
 # Load models and encoders
 models = {
-    "depression": joblib.load("models/model_depression.pkl"),
-    "anxiety": joblib.load("models/model_anxiety.pkl"),
-    "stress": joblib.load("models/model_stress.pkl"),
+    "depression": joblib.load("model_depression.pkl"),
+    "anxiety": joblib.load("model_anxiety.pkl"),
+    "stress": joblib.load("model_stress.pkl"),
 }
 encoders = {
-    "depression": joblib.load("models/encoder_depression.pkl"),
-    "anxiety": joblib.load("models/encoder_anxiety.pkl"),
-    "stress": joblib.load("models/encoder_stress.pkl"),
+    "depression": joblib.load("encoder_depression.pkl"),
+    "anxiety": joblib.load("encoder_anxiety.pkl"),
+    "stress": joblib.load("encoder_stress.pkl"),
 }
 
 # Define question sets
